@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Currency Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Currency Calculator</h1><div class="fl">
+    <div class="st">
+    <div class="input-container">
+      <label>Select Currency:</label>
+      <select id="currency-select">
+        <option value="KZT">KZT</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+      <label>Enter Amount:</label>
+      <input type="number" id="amount-input">
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div class="fl-c">
+    <div class="fl">
+      <p>KZT(tenge)</p>
+      <p>USD(dollar)</p>
+      <p>EUR(euro)</p>
+    </div>
+    
+    <div id="result-container">
+      <div class="fl">
+      <p id="kzt-result"></p>
+      <p id="usd-result"></p>
+      <p id="eur-result"></p>
+    </div>
+      </div>
+      </div>
+  </div>    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
